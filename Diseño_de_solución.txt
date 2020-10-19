@@ -1,0 +1,8 @@
+Diseño de solución:
+1. Tomar de las páginas dadas toda la información.
+2. Filtrar la información de las regiones y quedarme con un único valor de cada región.
+3. Usar las regiones tomadas antes, para filtrar un país y su idioma(encriptado en sha1) por cada región, durante este proceso realizar un diccionario donde se agrupe esta información.
+4. Tomar el diccionario para crear un dataframe con panda.
+5. Usar los comandos de panda sum(), mean(), min(), max(), para tomar los valores de tiempo total, promedio, minimo y maximo que tomo en realizar las filas de los datos solicitados.
+6. Convertir el data frame mencionado antes en una base de datos sqlite, con el comando .to_sql().
+7. Convertir el data frame mencionado antes en una archivo JSON, con el comando .to_json().
